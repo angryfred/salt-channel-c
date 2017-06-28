@@ -45,4 +45,4 @@ host_echo: host_echo.o salt_2.o tweetnacl.o randombytes_linux.o salt_util.o salt
 	$(CC) $(LD_FLAGS) -lm $^ -o host_echo.out
 
 clean:
-	rm -f *.o
+	rm -f *.o *.out
